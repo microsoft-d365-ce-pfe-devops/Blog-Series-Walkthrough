@@ -1,0 +1,7 @@
+name: $(BuildDefinitionName)-$(Date:yyyyMMdd).$(Rev.r)
+
+trigger:
+- master
+
+pool:
+  vmImage: 'win2019'
